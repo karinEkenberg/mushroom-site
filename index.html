@@ -1,10 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>mushrooms</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              canvas: "#F7F1E5",
+              charcoal: "#4C4B16",
+              olive: "#898121",
+              primary: {
+                DEFAULT: "#E7B10A",
+                hover: "#DFAB0C",
+                active: "#CEA219",
+              },
+            },
+          },
+        },
+      };
+    </script>
   </head>
   <body>
     <div id="root"></div>
