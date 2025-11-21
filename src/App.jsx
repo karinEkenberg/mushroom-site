@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
-
+import Mainsections from "./components/mainsections";
 function App() {
   return (
     <>
       <div className="bg-[url('./src/assets/images/background.png')] bg-charcoal bg-repeat bg-[length:150px] h-96 w-full flex items-center">
-        <div className="w-full lg:w-fit mx-auto bg-canvas text-charcoal p-8 rounded-lg">
+        <Mainsections>
           <h1 className="text-3xl font-bold text-olive">Karins Svampar</h1>
-        </div>
+        </Mainsections>
       </div>
     </>
   );
