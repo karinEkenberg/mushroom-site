@@ -3,6 +3,8 @@ import "./App.css";
 import MainSections from "./components/MainSections.jsx";
 import bgImage from "./assets/images/background.png";
 import FirstHeadings from "./components/FirstHeadings.jsx";
+import SecondHeadings from "./components/SecondHeadings.jsx";
+
 function App() {
   return (
     <>
@@ -16,19 +18,19 @@ function App() {
         </FirstHeadings>
       </MainSections>
       <MainSections>
-        <FirstHeadings className="text-3xl font-bold text-olive text-center">
+        <SecondHeadings className="text-3xl font-bold text-olive text-center">
           Karins Svampar
-        </FirstHeadings>
+        </SecondHeadings>
       </MainSections>
       <MainSections>
-        <FirstHeadings className="text-3xl font-bold text-olive text-center">
+        <SecondHeadings className="text-3xl font-bold text-olive text-center">
           Karins Svampar
-        </FirstHeadings>
+        </SecondHeadings>
       </MainSections>
       <MainSections>
-        <FirstHeadings className="text-3xl font-bold text-olive text-center">
+        <SecondHeadings className="text-3xl font-bold text-olive text-center">
           Karins Svampar
-        </FirstHeadings>
+        </SecondHeadings>
       </MainSections>
     </>
   );
