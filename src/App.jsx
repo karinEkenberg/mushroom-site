@@ -4,6 +4,7 @@ import MainSections from "./components/MainSections.jsx";
 import bgImage from "./assets/images/background.png";
 import FirstHeadings from "./components/FirstHeadings.jsx";
 import SecondHeadings from "./components/SecondHeadings.jsx";
+import Breadtext from "./components/Breadtext.jsx";
 
 function App() {
   return (
@@ -16,21 +17,71 @@ function App() {
         <FirstHeadings className="text-3xl font-bold text-olive text-center">
           Karins Svampar
         </FirstHeadings>
+        <Breadtext>
+          Välkommen till Karins Svampar! Upptäck en värld av svampar genom
+          Karins passion och expertis. Utforska våra guider, recept och tips för
+          att plocka, identifiera och tillaga svampar på bästa sätt.
+        </Breadtext>
       </MainSections>
       <MainSections>
         <SecondHeadings className="text-3xl font-bold text-olive text-center">
           Karins Svampar
         </SecondHeadings>
+        <Breadtext>
+          Välkommen till Karins Svampar! Upptäck en värld av svampar genom
+          Karins passion och expertis. Utforska våra guider, recept och tips för
+          att plocka, identifiera och tillaga svampar på bästa sätt.
+        </Breadtext>
       </MainSections>
       <MainSections>
         <SecondHeadings className="text-3xl font-bold text-olive text-center">
           Karins Svampar
         </SecondHeadings>
+        <Breadtext>
+          Välkommen till Karins Svampar! Upptäck en värld av svampar genom
+          Karins passion och expertis. Utforska våra guider, recept och tips för
+          att plocka, identifiera och tillaga svampar på bästa sätt.
+        </Breadtext>
       </MainSections>
       <MainSections>
         <SecondHeadings className="text-3xl font-bold text-olive text-center">
           Karins Svampar
         </SecondHeadings>
+        <Breadtext>
+          Välkommen till Karins Svampar! Upptäck en värld av svampar genom
+          Karins passion och expertis. Utforska våra guider, recept och tips för
+          att plocka, identifiera och tillaga svampar på bästa sätt.
+        </Breadtext>
+      </MainSections>
+      <MainSections>
+        <SecondHeadings className="text-3xl font-bold text-olive text-center">
+          Karins Svampar
+        </SecondHeadings>
+        <Breadtext>
+          Välkommen till Karins Svampar! Upptäck en värld av svampar genom
+          Karins passion och expertis. Utforska våra guider, recept och tips för
+          att plocka, identifiera och tillaga svampar på bästa sätt.
+        </Breadtext>
+      </MainSections>
+      <MainSections>
+        <SecondHeadings className="text-3xl font-bold text-olive text-center">
+          Karins Svampar
+        </SecondHeadings>
+        <Breadtext>
+          Välkommen till Karins Svampar! Upptäck en värld av svampar genom
+          Karins passion och expertis. Utforska våra guider, recept och tips för
+          att plocka, identifiera och tillaga svampar på bästa sätt.
+        </Breadtext>
+      </MainSections>
+      <MainSections>
+        <SecondHeadings className="text-3xl font-bold text-olive text-center">
+          Karins Svampar
+        </SecondHeadings>
+        <Breadtext>
+          Välkommen till Karins Svampar! Upptäck en värld av svampar genom
+          Karins passion och expertis. Utforska våra guider, recept och tips för
+          att plocka, identifiera och tillaga svampar på bästa sätt.
+        </Breadtext>
       </MainSections>
     </>
   );
