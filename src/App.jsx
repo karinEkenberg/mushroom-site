@@ -5,6 +5,7 @@ import bgImage from "./assets/images/background.png";
 import FirstHeadings from "./components/FirstHeadings.jsx";
 import SecondHeadings from "./components/SecondHeadings.jsx";
 import Breadtext from "./components/Breadtext.jsx";
+import Buttons from "./components/Buttons.jsx";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           Karins passion och expertis. Utforska våra guider, recept och tips för
           att plocka, identifiera och tillaga svampar på bästa sätt.
         </Breadtext>
+        <Buttons>Utforska Nu</Buttons>
       </MainSections>
       <MainSections>
         <SecondHeadings className="text-3xl font-bold text-olive text-center">
