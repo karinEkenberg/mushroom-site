@@ -1,16 +1,15 @@
 import React, { Component } from "react";
 
-export default class Links extends Component {
-  render() {
-    return (
+  const Links = ({ href, children, external }) =>{
+    return  (
       <a
         className="text-charcoal hover:text-olive active:text-linkactive visited:text-linkvisited underline"
-        href="{this.props.href || '#'}"
-        target="{this.props.target || '_self'}"
-        rel="noreferrer"
+        href="{href}"
+        target="{external ? '_blank' : '_self' : undefined}"
+        rel="{external ? 'noopener noreferrer' : undefined}"
       >
-        {this.props.children}
+        {children}
       </a>
     );
   }
-}
+export default Links;

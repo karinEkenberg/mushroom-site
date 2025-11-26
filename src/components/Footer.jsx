@@ -9,7 +9,10 @@ export default class Footer extends Component {
       <MainSections>
         <footer className="text-center">
           <Breadtext>
-            © 2025 Karin Ekenberg | <Links href="#">Admin-login</Links>
+            © 2025 Karin Ekenberg |{" "}
+            <Links href="#" target="_self">
+              Admin-login
+            </Links>
           </Breadtext>
         </footer>
       </MainSections>
