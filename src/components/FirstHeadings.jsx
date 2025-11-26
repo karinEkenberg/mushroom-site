@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export default class FirstHeadings extends Component {
   render() {
     return (
-      <h1 className="text-3xl font-bold text-olive text-center">
+      <h1 className="text-3xl font-bold text-charcoal text-center">
         {this.props.children}
       </h1>
     );
