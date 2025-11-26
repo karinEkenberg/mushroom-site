@@ -6,6 +6,7 @@ import FirstHeadings from "./components/FirstHeadings.jsx";
 import SecondHeadings from "./components/SecondHeadings.jsx";
 import Breadtext from "./components/Breadtext.jsx";
 import Buttons from "./components/Buttons.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
@@ -85,6 +86,7 @@ function App() {
           att plocka, identifiera och tillaga svampar på bästa sätt.
         </Breadtext>
       </MainSections>
+      <Footer />
     </>
   );
 }
