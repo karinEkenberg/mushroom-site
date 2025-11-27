@@ -7,6 +7,9 @@ import SecondHeadings from "./components/SecondHeadings.jsx";
 import Breadtext from "./components/Breadtext.jsx";
 import Buttons from "./components/Buttons.jsx";
 import Footer from "./components/Footer.jsx";
+import Images from "./components/Images.jsx";
+import forest from "./assets/images/forest.jpg";
+import SplitSections from "./components/SplitSections.jsx";
 
 function App() {
   return (
@@ -19,72 +22,94 @@ function App() {
         <FirstHeadings className="text-3xl font-bold text-olive text-center">
           Karins Svampar
         </FirstHeadings>
-        <Breadtext>
-          Välkommen till Karins Svampar! Upptäck en värld av svampar genom
-          Karins passion och expertis. Utforska våra guider, recept och tips för
-          att plocka, identifiera och tillaga svampar på bästa sätt.
-        </Breadtext>
+        <SplitSections>
+          <Breadtext>
+            Välkommen till Karins Svampar! Upptäck en värld av svampar genom
+            Karins passion och expertis. Utforska våra guider, recept och tips
+            för att plocka, identifiera och tillaga svampar på bästa sätt.
+          </Breadtext>
+          <Images src={forest} alt="forest" />
+        </SplitSections>
+
         <Buttons>Utforska Nu</Buttons>
       </MainSections>
       <MainSections>
         <SecondHeadings className="text-3xl font-bold text-olive text-center">
           Karins Svampar
         </SecondHeadings>
-        <Breadtext>
-          Välkommen till Karins Svampar! Upptäck en värld av svampar genom
-          Karins passion och expertis. Utforska våra guider, recept och tips för
-          att plocka, identifiera och tillaga svampar på bästa sätt.
-        </Breadtext>
+        <SplitSections>
+          <Images src={forest} alt="forest" />
+          <Breadtext>
+            Välkommen till Karins Svampar! Upptäck en värld av svampar genom
+            Karins passion och expertis. Utforska våra guider, recept och tips
+            för att plocka, identifiera och tillaga svampar på bästa sätt.
+          </Breadtext>
+        </SplitSections>
       </MainSections>
       <MainSections>
         <SecondHeadings className="text-3xl font-bold text-olive text-center">
           Karins Svampar
         </SecondHeadings>
-        <Breadtext>
-          Välkommen till Karins Svampar! Upptäck en värld av svampar genom
-          Karins passion och expertis. Utforska våra guider, recept och tips för
-          att plocka, identifiera och tillaga svampar på bästa sätt.
-        </Breadtext>
+        <SplitSections>
+          <Breadtext>
+            Välkommen till Karins Svampar! Upptäck en värld av svampar genom
+            Karins passion och expertis. Utforska våra guider, recept och tips
+            för att plocka, identifiera och tillaga svampar på bästa sätt.
+          </Breadtext>
+          <Images src={forest} alt="forest" />
+        </SplitSections>
       </MainSections>
       <MainSections>
         <SecondHeadings className="text-3xl font-bold text-olive text-center">
           Karins Svampar
         </SecondHeadings>
-        <Breadtext>
-          Välkommen till Karins Svampar! Upptäck en värld av svampar genom
-          Karins passion och expertis. Utforska våra guider, recept och tips för
-          att plocka, identifiera och tillaga svampar på bästa sätt.
-        </Breadtext>
+        <SplitSections>
+          <Images src={forest} alt="forest" />
+          <Breadtext>
+            Välkommen till Karins Svampar! Upptäck en värld av svampar genom
+            Karins passion och expertis. Utforska våra guider, recept och tips
+            för att plocka, identifiera och tillaga svampar på bästa sätt.
+          </Breadtext>
+        </SplitSections>
       </MainSections>
       <MainSections>
         <SecondHeadings className="text-3xl font-bold text-olive text-center">
           Karins Svampar
         </SecondHeadings>
-        <Breadtext>
-          Välkommen till Karins Svampar! Upptäck en värld av svampar genom
-          Karins passion och expertis. Utforska våra guider, recept och tips för
-          att plocka, identifiera och tillaga svampar på bästa sätt.
-        </Breadtext>
+        <SplitSections>
+          <Breadtext>
+            Välkommen till Karins Svampar! Upptäck en värld av svampar genom
+            Karins passion och expertis. Utforska våra guider, recept och tips
+            för att plocka, identifiera och tillaga svampar på bästa sätt.
+          </Breadtext>
+          <Images src={forest} alt="forest" />
+        </SplitSections>
       </MainSections>
       <MainSections>
         <SecondHeadings className="text-3xl font-bold text-olive text-center">
           Karins Svampar
         </SecondHeadings>
-        <Breadtext>
-          Välkommen till Karins Svampar! Upptäck en värld av svampar genom
-          Karins passion och expertis. Utforska våra guider, recept och tips för
-          att plocka, identifiera och tillaga svampar på bästa sätt.
-        </Breadtext>
+        <SplitSections>
+          <Images src={forest} alt="forest" />
+          <Breadtext>
+            Välkommen till Karins Svampar! Upptäck en värld av svampar genom
+            Karins passion och expertis. Utforska våra guider, recept och tips
+            för att plocka, identifiera och tillaga svampar på bästa sätt.
+          </Breadtext>
+        </SplitSections>
       </MainSections>
       <MainSections>
         <SecondHeadings className="text-3xl font-bold text-olive text-center">
           Karins Svampar
         </SecondHeadings>
-        <Breadtext>
-          Välkommen till Karins Svampar! Upptäck en värld av svampar genom
-          Karins passion och expertis. Utforska våra guider, recept och tips för
-          att plocka, identifiera och tillaga svampar på bästa sätt.
-        </Breadtext>
+        <SplitSections>
+          <Breadtext>
+            Välkommen till Karins Svampar! Upptäck en värld av svampar genom
+            Karins passion och expertis. Utforska våra guider, recept och tips
+            för att plocka, identifiera och tillaga svampar på bästa sätt.
+          </Breadtext>
+          <Images src={forest} alt="forest" />
+        </SplitSections>
       </MainSections>
       <Footer />
     </>

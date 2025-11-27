@@ -2,6 +2,8 @@ import React, { Component } from "react";
 
 export default class Breadtext extends Component {
   render() {
-    return <p className="text-xl text-charcoal">{this.props.children}</p>;
+    return (
+      <p className="text-xl text-charcoal w-full">{this.props.children}</p>
+    );
   }
 }
