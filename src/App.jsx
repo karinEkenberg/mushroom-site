@@ -10,10 +10,11 @@ import Footer from "./components/Footer.jsx";
 import Images from "./components/Images.jsx";
 import forest from "./assets/images/forest.jpg";
 import SplitSections from "./components/SplitSections.jsx";
-
+import Hero from "./components/Hero.jsx";
 function App() {
   return (
     <>
+      <Hero />
       <div
         style={{ backgroundImage: `url(${bgImage})` }}
         className="bg-charcoal fixed -z-10 bg-repeat bg-[length:150px] h-full top-0 w-full items-center"

@@ -1,4 +1,5 @@
 import React from "react";
+
 // (Valfritt: om du vill använda PropTypes för extra säkerhet)
 // import PropTypes from 'prop-types';
 
