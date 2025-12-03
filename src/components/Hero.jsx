@@ -1,6 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 import MainSections from "./MainSections";
 import Buttons from "./Buttons";
+
+// 1. Importera bilderna som variabler
+// OBS: ".." betyder "gå upp ett steg" (ut ur components, in i assets)
+import heroImg from "../assets/images/svampsidan-hero.webp";
+import heroMobileImg from "../assets/images/svampsidan-hero-mobile.webp";
 
 const Hero = () => {
   return (
@@ -9,11 +14,13 @@ const Hero = () => {
         <picture className="w-full block">
           <source
             media="(max-width: 768px)"
-            srcSet="./src/assets/images/svampsidan-hero-mobile.webp"
+            // 2. Använd variabeln (utan citattecken)
+            srcSet={heroMobileImg}
           />
 
           <img
-            src="./src/assets/images/svampsidan-hero.webp"
+            // 3. Använd variabeln här också
+            src={heroImg}
             alt="svampsidan-hero"
             loading="lazy"
             className="w-full object-cover"
