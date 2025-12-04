@@ -21,8 +21,10 @@ const Hero = () => {
           <img
             // 3. Använd variabeln här också
             src={heroImg}
+            width="1920"
+            height="1080"
             alt="svampsidan-hero"
-            loading="lazy"
+            loading="eager"
             className="w-full object-cover"
           />
         </picture>

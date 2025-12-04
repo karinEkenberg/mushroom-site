@@ -6,12 +6,7 @@ import React from "react";
 export default function Images({ src, alt }) {
   return (
     <div className="flex justify-center w-full">
-      <img
-        className=":w-full object-cover"
-        src={src}
-        alt={alt}
-        loading="lazy"
-      />
+      <img className="w-full object-cover" src={src} alt={alt} loading="lazy" />
     </div>
   );
 }
